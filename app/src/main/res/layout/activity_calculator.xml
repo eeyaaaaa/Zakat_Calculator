@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/green"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/totalGold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/total_gold_value_rm"
+        android:textAlignment="textStart"
+        android:textColor="#454545"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/zakatPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/zakat_payable_rm"
+        android:textAlignment="textStart"
+        android:textColor="#454545"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/totalZakat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/total_zakat_rm"
+        android:textAlignment="textStart"
+        android:textColor="#454545"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:hint="@string/weight_of_gold_g"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:textColorHint="#6495ED"
+        android:textSize="16sp"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/cgold"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF"
+        android:hint="@string/current_gold_value_gram"
+        android:inputType="numberDecimal"
+        android:textColor="#000000"
+        android:textColorHint="#6495ED"
+        android:textSize="16sp"
+        android:autofillHints="" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:animateLayoutChanges="true"
+        android:background="#CDFDF5F5"
+        android:dropDownWidth="match_parent"
+        android:spinnerMode="dropdown"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/btncal"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/calculate" />
+
+    <Button
+        android:id="@+id/btnreset"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="@string/reset" />
+
+</LinearLayout>
+

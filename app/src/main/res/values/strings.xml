@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Zakat Calculator</string>
+    <string-array name="status">
+        <item>Keep</item>
+        <item>Wear</item>
+    </string-array>
+    <string name="copyright">Copyright &#169; 2023 Hidayah</string>
+    <string name="name">NAME : NURUL HIDAYAH BINTI KAMA AZMAL</string>
+    <string name="gp">GROUP : RSC2405A</string>
+    <string name="id">STUDENT NUMBER : 2021834072</string>
+    <string name="code">PROGRAMME CODE : CS240</string>
+    <string name="link"><a href="https://github.com/eeyaaaaa/ZakatCalculator">Source Code Link</a></string>
+    <string name="total_gold_value_rm">Total Gold Value: RM</string>
+    <string name="zakat_payable_rm">Zakat Payable : RM</string>
+    <string name="reset">Reset</string>
+    <string name="total_zakat_rm">Total Zakat : RM</string>
+    <string name="weight_of_gold_g">Weight of Gold (g)</string>
+    <string name="calculate">Calculate</string>
+    <string name="current_gold_value_gram">Current Gold value/gram</string>
+    <string name="welcome">Welcome</string>
+    <string name="calculatezakat">Calculate zakat</string>
+    <string name="about">about</string>
+</resources>
